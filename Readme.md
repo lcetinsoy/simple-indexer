@@ -1,11 +1,11 @@
 # Indexer
 
-A simple document seach. It needs to be improved. 
-
+A simple document seach workingly poorly 
 
 ## Todo 
 
-1. First you must assess the tool and identify at least 3 drawbacks*
-2. Then you must suggestion at least 1 improvement
-3. Optionnaly you can implement a RAG system
-3. Implement the improvements
+1. Assess the tool and identify at least 3 drawbacks
+2. Suggest at least 1 improvement (the more the better)
+3. Implement the suggestions and measure the improvements over the inital system
+4. Optionnaly, implement a RAG system
+
