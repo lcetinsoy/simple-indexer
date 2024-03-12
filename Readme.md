@@ -6,12 +6,11 @@ A simple document seach workingly poorly
 
 pip install -r requirements.txt
 
-
 ## usage 
 
-1. Launch the indexer server using  main.py
-2. Index documents from files using ingestion.py : python ingestion.py path/to/folder
-folder contains files to index
+1. Launch the indexer server: uvicorn main:app --reload
+
+2. Index documents from files using ingestion.py: python ingestion.py path/to/folder. Folder contains files to index. You can also directly use the endpoint /index-documents (cf /docs)
 
 3. Query the engine using your favorite http client with /query-document endpoint
 
@@ -22,4 +21,3 @@ folder contains files to index
 2. Suggest at least 1 improvement (the more the better)
 3. Implement the suggestions and measure the improvements over the inital system
 4. Optionnaly, implement a RAG system
-
