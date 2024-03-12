@@ -2,7 +2,7 @@ import os
 import requests
 import sys
 
-base_url = os.getenv('baseurl')
+base_url = os.getenv('baseurl', "http://localhost:8000")
 
 def index_folder_contents(folder_path):
     documents = []

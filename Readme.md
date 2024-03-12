@@ -2,6 +2,20 @@
 
 A simple document seach workingly poorly 
 
+## installation
+
+pip install -r requirements.txt
+
+
+## usage 
+
+1. Launch the indexer server using  main.py
+2. Index documents from files using ingestion.py : python ingestion.py path/to/folder
+folder contains files to index
+
+3. Query the engine using your favorite http client with /query-document endpoint
+
+
 ## Todo 
 
 1. Assess the tool and identify at least 3 drawbacks

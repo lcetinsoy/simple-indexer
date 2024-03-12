@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from typing import List
-from indexation import indexer
+from indexer import indexer
 
 app = FastAPI()
 
